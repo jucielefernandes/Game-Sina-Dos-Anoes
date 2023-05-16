@@ -2,30 +2,29 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000000;
-    background-repeat: no-repeat;
+   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   font-size: 100%;
-  height: 71vh;
+  background-image: url("imagem/ft.jpg");
     
   }
   
   .header {
-    background-color:#2c2a2a;
+    background-color:#383837;
     padding: 0.1px;
     
   
   }
   
   .header >h1 {
-    color: #FFFF00;
+    color: #EAF207;
     
   }
-  .container {
+  .container-login {
     width: 250px;
     margin: 80px auto;
-    margin-right: 50px;
+    margin-right: 200px;
     padding: 60px;
     background-color: #000000;
     border: 1px solid #000000;
@@ -38,6 +37,64 @@ body {
    
    
     }
+    .container-cadastro{
+    
+    width: 300px;
+    margin: 60px auto;
+    padding: 60px;
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 2px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+    justify-content: center;
+    flex-direction:column;
+   
+    }
+   .container-termos{
+    background-color: #000000;
+    border: 1px solid #000000;
+    width: 300px;
+    margin: 60px auto;
+    padding: 60px;
+    color:#fff;
+   }
+  
+   .container-sobre{
+    background-color: #000000;
+    border: 1px solid #000000;
+    width: 300px;
+    margin: 60px auto;
+    padding: 60px;
+    color:#fff;
+   }
+
+   .container-politica{
+    background-color: #000000;
+    border: 1px solid #000000;
+    width: 300px;
+    margin: 60px auto;
+    padding: 60px;
+    color:#fff;
+   }
+
+   .container-informacoes{
+    background-color: #000000;
+    border: 1px solid #000000;
+    width: 300px;
+    margin: 60px auto;
+    padding: 60px;
+    color:#fff;
+   }
+   .container-perguntas{
+    background-color: #000000;
+    border: 1px solid #000000;
+    width: 300px;
+    margin: 60px auto;
+    padding: 60px;
+    color:#fff;
+   }
   
   .form-group {
     margin-bottom: 20px;
@@ -52,7 +109,7 @@ body {
     display: block;
     font-weight: bold;
     margin-bottom: 8px;
-    color: #fdec00;
+    color: #EAF207;
     
   }
   
@@ -72,7 +129,7 @@ body {
     padding: 15px;
     text-align: center;
     font-size: 20px;
-    background-color: #2c2a2a;
+    background-color: #383837;
   }
   
   .footer a {
@@ -83,10 +140,84 @@ body {
   .btn-login {
     color: #eeeeee;
     padding: 10px;
-    background-color: #0c0741;
+    background-color: #1C2A73;
     justify-content: flex-end;
     border-radius: 3px;
     font-size: larger;
     cursor: pointer;
+  }
+  .btn-cadastro{
+    color: #eeeeee;
+    padding: 10px;
+    background-color: #1C2A73;
+    justify-content: flex-end;
+    border-radius: 3px;
+    font-size: larger;
+    cursor: pointer;
+  }
+  /*
+  body {
+    background-image: url('ft.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #head {
+    background-color: #383837;
+    color: #eaf207;
+  }
+  * {
+    margin: 0;
+  }
+  
+  #footer {
+    width: 100%;
+    margin: auto;
+    bottom: 0;
+    position: fixed;
+    color: #ffffff;
+    background-color: #383837;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  #Cadastro {
+    position: relative;
+    background-color: #0a0a0a;
+  
+    width: 50%;
+    height: 0%;
+    padding-bottom: 30%;
+    margin: auto;
+    top: 100px;
+  }
+  #Titulo-Cadastro {
+    color: #eaf207;
+    text-align: center;
+    background-color: #383837;
+  
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #forms {
+    width: 50%;
+    max-width: 500px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
   }
   
